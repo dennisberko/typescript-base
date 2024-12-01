@@ -1,0 +1,13 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "tsBuildInfoFile": "./.tsbuildinfo/react.tsbuildinfo",
+    "outDir": "./dist/",
+    "types": ["jest", "node"],
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "baseUrl": "./"
+  },
+  "exclude": ["./node_modules"],
+  "include": ["eslint.config.mjs", "src"]
+}
